@@ -1,0 +1,13 @@
+body{
+    font-family: sytem-ui;
+}
+
+.container {
+    display: grid;
+    grid-template: 100px 150px 100px / 100px 50% 100px;
+}
+.item{
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid red;
+}

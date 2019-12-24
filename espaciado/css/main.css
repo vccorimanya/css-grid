@@ -1,0 +1,26 @@
+body{
+    font-family: sytem-ui;
+}
+
+.container {
+    display: grid;
+    grid-template:  150px 100px / 50% 100px 100px;
+    
+    grid-gap: 10px 50px;
+}
+.item{
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.item:nth-of-type(4){
+    background: lightcoral;
+    overflow: auto;
+    display: grid;
+    grid-template:  50px 50px 50px/ 200px 200px 200px;
+
+}
+.item .item{
+    background: yellowgreen;
+}
